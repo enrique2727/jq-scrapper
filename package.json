@@ -1,24 +1,25 @@
 {
-  "name": "scrapper",
+  "name": "jq-scrapper",
   "homepage": "https://github.com/enrique2727/scrapper",
   "author": {
     "name": "Enrique Alcantara",
-    "url": "https://github.com/enrique2727/scrapper"
+    "url": "https://github.com/enrique2727/jq-scrapper"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/enrique2727/scrapper"
+    "url": "https://github.com/enrique2727/jq-scrapper"
   },
   "description": "Web page scrapper with server-side jQuery support",
   "keywords": [
     "html"
   ],
-  "version": "1.0.1",
-  "main": "./lib/index.js",
+  "version": "1.1.0",
+  "main": "./index.js",
   "dependencies": {
     "cheerio": "0.7.x",
-    "request": "2.9.x"
+    "request": "2.9.x",
+    "q": "~0.9.7"
   },
   "readmeFilename": "README.md",
-  "_id": "scrapper@1.0.1",
+  "_id": "scrapper@1.1.0"
 }
